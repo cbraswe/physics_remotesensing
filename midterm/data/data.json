@@ -1,0 +1,65 @@
+{
+    "spectrometers": 
+    [
+        {
+            "spectrometer_code": "BECK",
+            "wavelength_min": 0.2,
+            "wavelength_max": 3,
+            "bandpass_descrip": "Standard setting",
+            "model_descrip": "Beckman 5270"
+        },
+        {
+            "spectrometer_code": "ASDFR",
+            "wavelength_min": 0.35,
+            "wavelength_max": 2.5,
+            "bandpass_descrip": "Standard resolution full range, average bandpasses of 5, 12, and 11 nm for the three detectors",
+            "model_descrip": "ASD Full Range, Field Pro, FS3 and FS4"
+        },
+        {
+            "spectrometer_code": "ASDHR",
+            "wavelength_min": 0.35,
+            "wavelength_max": 2.5,
+            "bandpass_descrip": "High-resolution model, average bandpasses of 5, 9, and 9 nm for the three detectors",
+            "model_descrip": "ASD FS3 hi-resolution"
+        },
+        {
+            "spectrometer_code": "ASDNG",
+            "wavelength_min": 0.35,
+            "wavelength_max": 2.5,
+            "bandpass_descrip": "Next Generation model, average bandpasses of 5, 6, and 6 nm for the three detectors",
+            "model_descrip": "ASD FS4 hi-resolution Next Generation"
+        },
+        {
+            "spectrometer_code": "AVIRIS",
+            "wavelength_min": 0.37,
+            "wavelength_max": 2.5,
+            "bandpass_descrip": "Approximately 10 nm across the wavelength range of the sensor",
+            "model_descrip": "AVIRIS-classic, 1996 characteristics"
+        },
+        {
+            "spectrometer_code": "NIC4",
+            "wavelength_min": 1.12,
+            "wavelength_max": 216,
+            "bandpass_descrip": "4 cm-1 across the range",
+            "model_descrip": "Nicolet 740, Magna-IR 760, and 6700"
+        }
+    ],
+    "samples":
+    [
+        {
+            "aref_file": "../data/Lawn_Grass_GDS91/splib07a_Lawn_Grass_GDS91_green_BECKa_AREF.txt",
+            "micron_file": "../data/Lawn_Grass_GDS91/splib07a_Wavelengths_BECK_Beckman_0.2-3.0_microns.txt",
+            "name": "green_grass"
+        },
+        {
+            "aref_file": "",
+            "micron_file": "",
+            "name": "water_clouds"
+        },
+        {
+            "aref_file": "",
+            "micron_file": "",
+            "name": "urban_residential"
+        } 
+    ]
+}
